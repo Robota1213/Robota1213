@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/nav-bar.css">
+    <link rel="stylesheet" href="style/index.css">
+    <title>GL.ua</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="/"><img src="Img/logo.png" alt="" class="logo2"></a></div>
+            <ul>
+                <li><a href="#">Чому ми?</a></li>
+                <li><a href="#">Партнери</a></li>
+                <li><a href="#">Благодійність</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Drupal</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#">Чому ми?</a>
+            <a href="#">Партнери</a>
+            <a href="#">Благодійність</a>
+            <a href="#">Про нас</a>
+            <a href="#">Drupal</a>
+        </div>
+    </header>
+
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+    </script>
+
+    <section>
+        <div class="content">
+            <img src="Img/Vector.png" alt="">
+            <img src="Img/Rectangle 373.png" class="fon-img" alt="">
+            <div class="text-content">
+                <p class="eee">Вебстудія №1 з розробки сайтів</p>
+                <h1>Приєднуйтесь до нашої IT-команди</h1>
+                <p class="ee">Відкрийте нові перспективи кар'єрного зростання, приєднавшись до нашої інноваційної IT-команди, яка відкриває двері до безмежних можливостей</p>
+            </div>
+            <div class="button"><a href=""><img src="Img/Frame 176.png" alt=""></a></div>
+        </div>
+        <div class="content2">
+            <h2>Етапи первірки 
+                тестового завдання!</h2>
+            <img src="Img/Group 2219.png" alt="" class="img-info">
+            <p></p>
+        </div>
+    </section>
+
+    <footer>
+        <p class="poyasnenya">Робив дану роботу не 3 години а 1 годину 30 хвилин так як з'явилися справи. Також не встиг адаптувати сайт під мобільні телефони і тд. окрім того що зробив бургер кнопку бургер.</p>
+    </footer>
+</body>
+</html>
